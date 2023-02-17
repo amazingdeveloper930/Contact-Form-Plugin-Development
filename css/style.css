@@ -1,0 +1,59 @@
+.l4l-contact-form-container{
+    padding : 30px;
+}
+
+.l4l-contact-form-container .l4l-contact-form-row{
+    padding : 5px 10px;
+}
+
+.l4l-contact-form-container .l4l-contact-form-row .l4l-contact-form-label{
+    font-size: 0.75rem;
+    color: #222222;
+    display: block;
+}
+
+.l4l-contact-form-container .l4l-contact-form-row .l4l-contact-form-control{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 3px;
+    
+}
+
+.l4l-contact-form-container .l4l-contact-form-button-row{
+    text-align: center;
+}
+.l4l-contact-form-row .l4l-contact-form-mandatory{
+	color: red;
+	font-size: 0.7rem;
+    padding: 0px 5px;
+}
+
+.l4l-contact-form-row .l4l-contact-form-mandatory-warning
+{
+    color : red;
+    font-size: 0.7rem;
+    display: none;
+}
+
+.l4l-contact-form-button-row .l4l-contact-form-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding : 10px 20px;
+    border-radius: 3px;
+}
+
+.l4l-contact-form-button-row .l4l-contact-form-submit-result
+{
+    font-size: 0.8rem;
+    display: none;
+}
+.l4l-contact-form-button-row .l4l-contact-form-submit-result.txt-error {
+    display: block;
+    color : red;
+}
+
+.l4l-contact-form-button-row .l4l-contact-form-submit-result.txt-success {
+    display: block;
+    color : green;
+}
